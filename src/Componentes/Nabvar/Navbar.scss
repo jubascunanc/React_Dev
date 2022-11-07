@@ -1,0 +1,133 @@
+.Navbar{
+    background-color: rgb(15, 169, 225);
+    width: 1420px;
+    height:280px;
+    display: block;
+}
+
+
+.nav-link.active{
+  color:white;
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav-link{
+  color:white;
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+input{
+  margin:8px;
+}
+
+
+.App-logo{
+    width:200px;
+    margin-top: -50px;
+}
+
+.Banner>img{
+    width:1420px;
+    height:480px;
+    flex-wrap: wrap;
+}
+
+.Carrito>img{
+   width:40px;
+   position:static;
+   margin-left: 90%;
+   flex-wrap: wrap;
+}
+
+.user-img{
+  width:35px;
+  position:static;
+  padding:0px;
+  margin-left: 85%;
+  margin-top: -5%;
+
+}
+
+
+button>p{
+margin:10px;
+width:80px;
+}
+
+h1{
+    margin:40px;
+    text-align: center;
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2{
+    margin:35px;
+    text-align: center;
+    font-size:25px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+ 
+h3{
+    margin:35px;
+    font-size: 35px;
+    text-align:center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+ h4{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+ }
+
+h5{
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:rgb(0, 0, 0);
+}
+
+p{
+    text-align: center;
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ 
+  }
+
+ button:hover{
+    color: rgb(15, 169, 225);
+    background-color:rgb(255, 255, 255);
+    border-radius: 5%;
+    transform: scaleX(0,50);
+    opacity: var(5%);
+ }
+
+ .Boton{
+  margin-top: 10%;
+ }
+
+.btn-primary{
+  width:90px;
+  height: 50px;
+}
+
+
+ @media all and (max-width: 1600px) {
+    img{
+      width: 100%;
+    }
+    .navbar, .banner>img, body {
+      width: 100%;
+    }
+  
+    p{
+      width:100%;
+    }
+  
+    button{
+      width: 20%;
+    }
+  }
